@@ -211,6 +211,11 @@ This project also reflects my ability to combine my Medical Laboratory Science b
 
 ---
 
+## Project 
+[View Project]()
+
+---
+
 ## Author
 
 **John Chidera Jr.**
