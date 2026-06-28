@@ -88,7 +88,7 @@ Several countries achieved superior vaccination coverage despite having fewer he
 
 Below are some of the SQL queries used in this project.
 
-###  Regional Vaccination Coverage Ranking
+###  Yearly Regional Vaccination Coverage Ranking
 
 ```sql
 SELECT *
