@@ -213,7 +213,7 @@ This project also reflects my ability to combine my Medical Laboratory Science b
 ---
 
 ## Project 
-[View Project](https://github.com/Osi-Chidera-John/Pan-African-Vaccination-Coverage-Analysis-Using-SQL-2021-2023-/tree/main/Sql_filesv)
+[View Project](https://github.com/Osi-Chidera-John/Pan-African-Vaccination-Coverage-Analysis-Using-SQL-2021-2023-/tree/main/Sql_files)
 
 ---
 
