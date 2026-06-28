@@ -176,6 +176,7 @@ ORDER BY
      ROUND((TotalVaccination/TargetVaccination)*100,2) DESC
 ```
 
+![chart](assets/regional_urban_rural_distribution.png)
 ---
 
 ## What I Learnt
@@ -212,7 +213,7 @@ This project also reflects my ability to combine my Medical Laboratory Science b
 ---
 
 ## Project 
-[View Project]()
+[View Project](https://github.com/Osi-Chidera-John/Pan-African-Vaccination-Coverage-Analysis-Using-SQL-2021-2023-/tree/main/Sql_filesv)
 
 ---
 
