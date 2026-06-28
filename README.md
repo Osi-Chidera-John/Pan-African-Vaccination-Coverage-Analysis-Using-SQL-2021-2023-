@@ -94,17 +94,17 @@ Below are some of the SQL queries used in this project.
 SELECT *
 FROM (
 SELECT 
-   region,
-   YEAR(vaccination_date) year,
+   Region,
+   YEAR(vaccination_date) Year,
    SUM(target_population) total_targeted,
    SUM(vaccinations_administered) total_vaccinated,
    SUM(target_population) - SUM(vaccinations_administered) total_unvaccinated,
    ROUND((SUM(vaccinations_administered)/SUM(target_population))*100,2) coverage_rate,
    DENSE_RANK() OVER(PARTITION BY YEAR(vaccination_date) 
-   ORDER BY (SUM(vaccinations_administered)/SUM(target_population))*100 DESC) ranking
+   ORDER BY (SUM(vaccinations_administered)/SUM(target_population))*100 DESC) Ranking
 FROM vaccination_data1
-GROUP BY year, region) AS X
-WHERE ranking <= 5;
+GROUP BY Year, Region) AS X
+WHERE Ranking <= 5;
 ```
 
 ### Top Performing Countries
